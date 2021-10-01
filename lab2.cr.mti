@@ -1,0 +1,29 @@
+/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder_32_bit_testbench
+
+Top level modules:
+	ripple_carry_adder_32_bit_testbench
+
+} {} {}} /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit_testbench.v {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder_1_bit_testbench
+
+Top level modules:
+	ripple_carry_adder_1_bit_testbench
+
+} {} {}} /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit.v {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder_32_bit
+
+Top level modules:
+	ripple_carry_adder_32_bit
+
+} {} {}} /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit.v {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ripple_carry_adder_1_bit
+
+Top level modules:
+	ripple_carry_adder_1_bit
+
+} {} {}}
