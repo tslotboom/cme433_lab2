@@ -1,0 +1,551 @@
+|ripple_carry_adder_32_bit
+A[0] => A_reg[0].DATAIN
+A[1] => A_reg[1].DATAIN
+A[2] => A_reg[2].DATAIN
+A[3] => A_reg[3].DATAIN
+A[4] => A_reg[4].DATAIN
+A[5] => A_reg[5].DATAIN
+A[6] => A_reg[6].DATAIN
+A[7] => A_reg[7].DATAIN
+A[8] => A_reg[8].DATAIN
+A[9] => A_reg[9].DATAIN
+A[10] => A_reg[10].DATAIN
+A[11] => A_reg[11].DATAIN
+A[12] => A_reg[12].DATAIN
+A[13] => A_reg[13].DATAIN
+A[14] => A_reg[14].DATAIN
+A[15] => A_reg[15].DATAIN
+A[16] => A_reg[16].DATAIN
+A[17] => A_reg[17].DATAIN
+A[18] => A_reg[18].DATAIN
+A[19] => A_reg[19].DATAIN
+A[20] => A_reg[20].DATAIN
+A[21] => A_reg[21].DATAIN
+A[22] => A_reg[22].DATAIN
+A[23] => A_reg[23].DATAIN
+A[24] => A_reg[24].DATAIN
+A[25] => A_reg[25].DATAIN
+A[26] => A_reg[26].DATAIN
+A[27] => A_reg[27].DATAIN
+A[28] => A_reg[28].DATAIN
+A[29] => A_reg[29].DATAIN
+A[30] => A_reg[30].DATAIN
+A[31] => A_reg[31].DATAIN
+B[0] => B_reg[0].DATAIN
+B[1] => B_reg[1].DATAIN
+B[2] => B_reg[2].DATAIN
+B[3] => B_reg[3].DATAIN
+B[4] => B_reg[4].DATAIN
+B[5] => B_reg[5].DATAIN
+B[6] => B_reg[6].DATAIN
+B[7] => B_reg[7].DATAIN
+B[8] => B_reg[8].DATAIN
+B[9] => B_reg[9].DATAIN
+B[10] => B_reg[10].DATAIN
+B[11] => B_reg[11].DATAIN
+B[12] => B_reg[12].DATAIN
+B[13] => B_reg[13].DATAIN
+B[14] => B_reg[14].DATAIN
+B[15] => B_reg[15].DATAIN
+B[16] => B_reg[16].DATAIN
+B[17] => B_reg[17].DATAIN
+B[18] => B_reg[18].DATAIN
+B[19] => B_reg[19].DATAIN
+B[20] => B_reg[20].DATAIN
+B[21] => B_reg[21].DATAIN
+B[22] => B_reg[22].DATAIN
+B[23] => B_reg[23].DATAIN
+B[24] => B_reg[24].DATAIN
+B[25] => B_reg[25].DATAIN
+B[26] => B_reg[26].DATAIN
+B[27] => B_reg[27].DATAIN
+B[28] => B_reg[28].DATAIN
+B[29] => B_reg[29].DATAIN
+B[30] => B_reg[30].DATAIN
+B[31] => B_reg[31].DATAIN
+Cin => Cin_reg.DATAIN
+S_reg[0] <= S_reg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[1] <= S_reg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[2] <= S_reg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[3] <= S_reg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[4] <= S_reg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[5] <= S_reg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[6] <= S_reg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[7] <= S_reg[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[8] <= S_reg[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[9] <= S_reg[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[10] <= S_reg[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[11] <= S_reg[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[12] <= S_reg[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[13] <= S_reg[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[14] <= S_reg[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[15] <= S_reg[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[16] <= S_reg[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[17] <= S_reg[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[18] <= S_reg[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[19] <= S_reg[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[20] <= S_reg[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[21] <= S_reg[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[22] <= S_reg[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[23] <= S_reg[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[24] <= S_reg[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[25] <= S_reg[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[26] <= S_reg[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[27] <= S_reg[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[28] <= S_reg[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[29] <= S_reg[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[30] <= S_reg[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+S_reg[31] <= S_reg[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Cout_reg <= Cout_reg~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => Cout_reg~reg0.CLK
+clk => S_reg[0]~reg0.CLK
+clk => S_reg[1]~reg0.CLK
+clk => S_reg[2]~reg0.CLK
+clk => S_reg[3]~reg0.CLK
+clk => S_reg[4]~reg0.CLK
+clk => S_reg[5]~reg0.CLK
+clk => S_reg[6]~reg0.CLK
+clk => S_reg[7]~reg0.CLK
+clk => S_reg[8]~reg0.CLK
+clk => S_reg[9]~reg0.CLK
+clk => S_reg[10]~reg0.CLK
+clk => S_reg[11]~reg0.CLK
+clk => S_reg[12]~reg0.CLK
+clk => S_reg[13]~reg0.CLK
+clk => S_reg[14]~reg0.CLK
+clk => S_reg[15]~reg0.CLK
+clk => S_reg[16]~reg0.CLK
+clk => S_reg[17]~reg0.CLK
+clk => S_reg[18]~reg0.CLK
+clk => S_reg[19]~reg0.CLK
+clk => S_reg[20]~reg0.CLK
+clk => S_reg[21]~reg0.CLK
+clk => S_reg[22]~reg0.CLK
+clk => S_reg[23]~reg0.CLK
+clk => S_reg[24]~reg0.CLK
+clk => S_reg[25]~reg0.CLK
+clk => S_reg[26]~reg0.CLK
+clk => S_reg[27]~reg0.CLK
+clk => S_reg[28]~reg0.CLK
+clk => S_reg[29]~reg0.CLK
+clk => S_reg[30]~reg0.CLK
+clk => S_reg[31]~reg0.CLK
+clk => Cin_reg.CLK
+clk => B_reg[0].CLK
+clk => B_reg[1].CLK
+clk => B_reg[2].CLK
+clk => B_reg[3].CLK
+clk => B_reg[4].CLK
+clk => B_reg[5].CLK
+clk => B_reg[6].CLK
+clk => B_reg[7].CLK
+clk => B_reg[8].CLK
+clk => B_reg[9].CLK
+clk => B_reg[10].CLK
+clk => B_reg[11].CLK
+clk => B_reg[12].CLK
+clk => B_reg[13].CLK
+clk => B_reg[14].CLK
+clk => B_reg[15].CLK
+clk => B_reg[16].CLK
+clk => B_reg[17].CLK
+clk => B_reg[18].CLK
+clk => B_reg[19].CLK
+clk => B_reg[20].CLK
+clk => B_reg[21].CLK
+clk => B_reg[22].CLK
+clk => B_reg[23].CLK
+clk => B_reg[24].CLK
+clk => B_reg[25].CLK
+clk => B_reg[26].CLK
+clk => B_reg[27].CLK
+clk => B_reg[28].CLK
+clk => B_reg[29].CLK
+clk => B_reg[30].CLK
+clk => B_reg[31].CLK
+clk => A_reg[0].CLK
+clk => A_reg[1].CLK
+clk => A_reg[2].CLK
+clk => A_reg[3].CLK
+clk => A_reg[4].CLK
+clk => A_reg[5].CLK
+clk => A_reg[6].CLK
+clk => A_reg[7].CLK
+clk => A_reg[8].CLK
+clk => A_reg[9].CLK
+clk => A_reg[10].CLK
+clk => A_reg[11].CLK
+clk => A_reg[12].CLK
+clk => A_reg[13].CLK
+clk => A_reg[14].CLK
+clk => A_reg[15].CLK
+clk => A_reg[16].CLK
+clk => A_reg[17].CLK
+clk => A_reg[18].CLK
+clk => A_reg[19].CLK
+clk => A_reg[20].CLK
+clk => A_reg[21].CLK
+clk => A_reg[22].CLK
+clk => A_reg[23].CLK
+clk => A_reg[24].CLK
+clk => A_reg[25].CLK
+clk => A_reg[26].CLK
+clk => A_reg[27].CLK
+clk => A_reg[28].CLK
+clk => A_reg[29].CLK
+clk => A_reg[30].CLK
+clk => A_reg[31].CLK
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[0].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[1].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[2].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[3].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[4].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[5].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[6].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[7].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[8].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[9].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[10].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[11].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[12].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[13].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[14].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[15].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[16].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[17].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[18].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[19].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[20].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[21].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[22].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[23].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[24].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[25].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[26].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[27].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[28].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[29].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[30].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ripple_carry_adder_32_bit|ripple_carry_adder_1_bit:nate[31].r0
+A => A_B_XOR.IN0
+A => A_B_AND.IN0
+B => A_B_XOR.IN1
+B => A_B_AND.IN1
+Cin => A_B_XOR_Cin_AND.IN1
+Cin => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

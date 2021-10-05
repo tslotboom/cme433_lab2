@@ -1,0 +1,209 @@
+# Loading project lab2
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.ripple_carry_adder_32_bit_testbench
+# vsim work.ripple_carry_adder_32_bit_testbench 
+# Start time: 14:31:08 on Oct 05,2021
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+# WARNING: No extended dataflow license exists
+do ripple_32bit_wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(70)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 70
+quit -sim
+# End time: 14:37:03 on Oct 05,2021, Elapsed time: 0:05:55
+# Errors: 0, Warnings: 2
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.ripple_carry_adder_32_bit_testbench
+# vsim work.ripple_carry_adder_32_bit_testbench 
+# Start time: 14:37:10 on Oct 05,2021
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+# WARNING: No extended dataflow license exists
+do ripple_32bit_wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(70)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 70
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(71)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 71
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(71)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 71
+restart -f
+# **** Error: RestartQ cmd: namespace inscope ::vsimwidgets::ViewMaster {::.view_master SourceUpdatesAfterRestart} sim
+# ****        can't read "cbstate": no such variable
+# can't read "cbstate": no such variable
+#     while executing
+# "if {$cbstate} {
+#                   set PrefSource(WarnSourceChanged) 0
+#                }"
+#     (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::SrcCommon::SourceCheckCompileTime" body line 82)
+#     invoked from within
+# "SourceCheckCompileTime"
+#     (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::InitializeForDebug" body line 18)
+#     invoked from within
+# "InitializeForDebug"
+#     (object "::.main_pane.source.interior.cs.body.srcobj" method "::vsimwidgets::Srcobj::SourceUpdateLoadComplete" body line 49)
+#     invoked from within
+# "$srcedit SourceUpdateLoadComplete -restart"
+#     (object "::.view_master" method "::vsimwidgets::ViewMaster::SourceUpdatesAfterRestart" body line 7)
+#     invoked from within
+# "::.view_master SourceUpdatesAfterRestart sim"
+#     (in namespace inscope "::vsimwidgets::ViewMaster" script line 1)
+#     invoked from within
+# "namespace inscope ::vsimwidgets::ViewMaster {::.view_master SourceUpdatesAfterRestart} sim"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval $p $tankNamespace "
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+vsim work.ripple_carry_adder_32_bit_testbench
+# End time: 14:41:22 on Oct 05,2021, Elapsed time: 0:04:12
+# Errors: 0, Warnings: 1
+# vsim work.ripple_carry_adder_32_bit_testbench 
+# Start time: 14:41:22 on Oct 05,2021
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+# WARNING: No extended dataflow license exists
+do ripple_32bit_wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(71)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 71
+# Break key hit
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+do ripple_32bit_wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(69)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 69
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v failed with 2 errors.
+# 4 compiles, 1 failed with 2 errors.
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(52)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 52
+add wave -position insertpoint  \
+sim:/ripple_carry_adder_32_bit_testbench/slow_clk
+restart -f
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(52)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 52
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Load canceled
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(53)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 53
+quit -sim
+# End time: 14:58:01 on Oct 05,2021, Elapsed time: 0:16:39
+# Errors: 0, Warnings: 1
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.ripple_carry_adder_32_bit_testbench
+# vsim work.ripple_carry_adder_32_bit_testbench 
+# Start time: 14:58:10 on Oct 05,2021
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+# WARNING: No extended dataflow license exists
+do ripple_32bit_wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(53)
+#    Time: 100 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 53
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of ripple_carry_adder_1_bit.v was successful.
+# Compile of ripple_carry_adder_1_bit_testbench.v was successful.
+# Compile of ripple_carry_adder_32_bit.v was successful.
+# Compile of ripple_carry_adder_32_bit_testbench.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ripple_carry_adder_32_bit_testbench
+# Loading work.ripple_carry_adder_32_bit
+# Loading work.ripple_carry_adder_1_bit
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v(53)
+#    Time: 200 us  Iteration: 0  Instance: /ripple_carry_adder_32_bit_testbench
+# Break in Module ripple_carry_adder_32_bit_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v line 53

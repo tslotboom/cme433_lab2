@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ths943/engr-ece
+vripple_carry_adder_1_bit
+Z0 !s110 1633467622
+!i10b 1
+!s100 ]dn^:oV:^M?KG7b=X`nUI3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IibHk?dg7>QB[kkbToGC8z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2
+w1633378281
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit.v
+!i122 244
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1633467622.000000
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vripple_carry_adder_1_bit_testbench
+R0
+!i10b 1
+!s100 g1[P^<j<Ym<^beRnSjBdS2
+R1
+IbP?ZN8MihHLO6:E1E]6L_3
+R2
+R3
+w1633377024
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit_testbench.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit_testbench.v
+!i122 245
+L0 2 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_1_bit_testbench.v|
+!i113 1
+R6
+R7
+vripple_carry_adder_32_bit
+R0
+!i10b 1
+!s100 QC0i?[0UJ57M>[La`mNEN3
+R1
+IM519gX1ckRzMom0=b>dRc2
+R2
+R3
+w1633466218
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit.v
+!i122 246
+L0 1 39
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit.v|
+!i113 1
+R6
+R7
+vripple_carry_adder_32_bit_testbench
+R0
+!i10b 1
+!s100 Zd;@C9bYR=T>1WPNie84n0
+R1
+I[];jzL>YoMGfc3]^Ef2V71
+R2
+R3
+w1633467616
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v
+!i122 247
+L0 2 53
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab2/ripple_carry_adder_32_bit_testbench.v|
+!i113 1
+R6
+R7
